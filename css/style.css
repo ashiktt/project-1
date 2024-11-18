@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.progress {
+    animation: progress 1s ease-in 1;
+    background-color: red;
+    height: 2px;
+    color: red;
+}
+
+.logo {
+    display: flex;
+
+
+}
+
+.logo img {
+    width: 120px;
+    padding: 0px 17px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+
+}
+
+.search input {
+    height: 24px;
+    width: 700px;
+    border-radius: 4px;
+    margin: 0px 10px 0px 25px;
+    padding: 3px 12px;
+}
+
+.btn {
+    padding: 5px 21px;
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.container {
+    min-height: calc(100vh - 60px - 12vh);
+}
+
+.slider {
+    width: 48vw;
+
+    margin: 12px auto;
+
+  
+}
+
+.slider img {
+
+    height: 290px;
+
+    cursor: pointer;
+  
+    animation: slider 1s linear  1  ;
+}
+
+h2 {
+    padding: 12px;
+    margin: 12px;
+}
+
+.card {
+    background-color: rgb(210, 218, 218);
+    width: 100vw;
+    margin: auto;
+    padding: 16px 0px;
+
+
+
+}
+.all-card-item{
+    margin: 0px 32px;
+}
+
+.card-item {
+    display: inline flex;
+    justify-content: center;
+    width: 17vw;
+    flex-direction: column;
+    cursor: grab;
+    margin: 0px 1px;
+    background: white;
+    margin: 0px 15px;
+}
+
+
+
+
+.lines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px;
+}
+
+.card img {
+    height: 190px;
+    width: 170px;
+    margin: auto;
+}
+
+.my-1 {
+    padding: 7px 0px;
+}
+
+.btn-2 {
+    padding: 8px 19px;
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 9px;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}

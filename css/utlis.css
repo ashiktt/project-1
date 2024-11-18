@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 12vh;
+    background-color: #3f7845e8;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    height: 60px;
+    background-color: #3f7845e8;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    z-index: 1;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 23px;
+
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+
+
+}
+
+nav ul li a:hover {
+    font-weight: 800;
+
+}
+
+@keyframes progress {
+    0% {
+        width: 1vw;
+    }
+
+    70% {
+        width: 80vw;
+    }
+
+    100% {
+        width: 100vw;
+    }
+
+}
+@keyframes slider {
+from{
+    width: 1vw;
+    height: 0px;
+
+}
+to{
+
+    width: 48vw;
+    height: 290px;
+}
+}
